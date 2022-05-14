@@ -9,7 +9,6 @@ import school.student.ms.studentms.entity.Student;
 import school.student.ms.studentms.repository.StudentRepo;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 @AllArgsConstructor
