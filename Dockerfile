@@ -1,4 +1,4 @@
 FROM openjdk:11
-ARG JAR_FILE=target/*.jar
-COPY ${JAR_FILE} students-ms-project.jar
+EXPOSE 9090
+ADD target/students-ms-project.jar students-ms-project.jar
 ENTRYPOINT ["java","-jar","/students-ms-project.jar"]
