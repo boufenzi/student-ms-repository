@@ -39,7 +39,7 @@ class StudentServiceTest {
                 .build()));
         when(studentRepo.findAll(Mockito.any(PageRequest.class)))
                 .thenReturn(students);
-        Map<String, Object> studentsMap = studentService.findStudents(1, 2);
+        //Map<String, Object> studentsMap = studentService.findStudents(1, 2);
 
         assertEquals("abdelghafour", students.getContent().get(0).getFirstName() );
         assertEquals(0, students.getNumber());
