@@ -23,7 +23,7 @@ public class StudentController {
     }
 @GetMapping(value = "coucou")
     public String coucou() {
-    return "coucou";
+    return "coucou Abdel";
     }
 
 
